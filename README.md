@@ -11,7 +11,7 @@
 <a href="https://packagist.org/packages/seaony/laravel-valorant-api"><img src="https://poser.pugx.org/seaony/laravel-valorant-api/license" alt="License"></a>
 </p>
 
-## Install
+## Installing
 
 ```shell
 $ composer require seaonye/laravel-valorant-api
