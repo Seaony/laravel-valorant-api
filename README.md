@@ -11,17 +11,20 @@
 <a href="https://packagist.org/packages/seaony/laravel-valorant-api"><img src="https://poser.pugx.org/seaony/laravel-valorant-api/license" alt="License"></a>
 </p>
 
-## Installing
+## Install
 
 ```shell
 $ composer require seaonye/laravel-valorant-api
 ```
+
 
 ## Configuration
 
 ```shell
 php artisan vendor:publish --provider="Seaony\ValorantApi\ValorantServiceProvider"
 ```
+
+
 
 ## Usage
 
@@ -35,11 +38,15 @@ $client->authCookies();
 
 API Document：[https://valapidocs.techchrism.me/](https://valapidocs.techchrism.me/)
 
+
+
 ## 🧶 Project supported by JetBrains
 
 Many thanks to Jetbrains for kindly providing a license for me to work on this and other open-source projects.
 
 [![](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://www.jetbrains.com/?from=https://github.com/overtrue)
+
+
 
 
 ## 🍯 Acknowledgements
@@ -48,6 +55,8 @@ Many thanks to Jetbrains for kindly providing a license for me to work on this a
 - **[RumbleMike/ValorantClientAPI](https://github.com/RumbleMike/ValorantClientAPI) for the API that makes it all possible.**
 - **[techchrism/valorant-api-docs](https://github.com/techchrism/valorant-api-docs) for the detailed documentation.**
 - **[Valorant-API.com](https://valorant-api.com) for providing assets.**
+
+
 
 ## License
 
