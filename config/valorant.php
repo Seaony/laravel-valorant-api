@@ -2,6 +2,9 @@
 
 return [
 
+    /**
+     * Required SSL encryption method
+     */
     'ciphers'   => [
         'ECDHE-ECDSA-CHACHA20-POLY1305',
         'ECDHE-RSA-CHACHA20-POLY1305',
@@ -20,8 +23,8 @@ return [
         'DES-CBC3-SHA',  # most likely not available
     ],
 
-    /*
-     * Use uuid as primary key.
+    /**
+     * Required SSL encryption method
      */
     'ciphers13' => [
         'TLS_CHACHA20_POLY1305_SHA256',
@@ -29,8 +32,14 @@ return [
         'TLS_AES_256_GCM_SHA384',
     ],
 
+    /**
+     * Required SSL encryption method
+     */
     'ssl' => CURL_SSLVERSION_TLSv1_3,
 
+    /**
+     * Riot Platform
+     */
     'platform' => [
         'platformType'      => 'PC',
         'platformOS'        => 'Windows',
@@ -38,5 +47,8 @@ return [
         'platformChipset'   => 'Unknown',
     ],
 
+    /**
+     * Valorant asset uri
+     */
     'asset_uri' => 'https://valorant-api.com/v1/',
 ];

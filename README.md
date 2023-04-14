@@ -3,12 +3,12 @@
 <p align="center">🍯 A Valorant api wrapper for Laravel.</p>
 
 <p align="center">
-<a href="https://packagist.org/packages/seaony/laravel-valorant-api"><img src="https://poser.pugx.org/seaony/laravel-valorant-api/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/seaony/laravel-valorant-api"><img src="https://poser.pugx.org/seaony/laravel-valorant-api/v/unstable.svg" alt="Latest Unstable Version"></a>
+<a href="https://packagist.org/packages/seaonye/laravel-valorant-api"><img src="https://poser.pugx.org/seaonye/laravel-valorant-api/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/seaonye/laravel-valorant-api"><img src="https://poser.pugx.org/seaonye/laravel-valorant-api/v/unstable.svg" alt="Latest Unstable Version"></a>
 <a href="https://scrutinizer-ci.com/g/seaony/laravel-valorant-api/build-status/master"><img src="https://scrutinizer-ci.com/g/seaony/laravel-valorant-api/badges/build.png?b=master" alt="Build Status"></a>
 <a href="https://scrutinizer-ci.com/g/seaony/laravel-valorant-api/?branch=master"><img src="https://scrutinizer-ci.com/g/seaony/laravel-valorant-api/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
-<a href="https://packagist.org/packages/seaony/laravel-valorant-api"><img src="https://poser.pugx.org/seaony/laravel-valorant-api/downloads" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/seaony/laravel-valorant-api"><img src="https://poser.pugx.org/seaony/laravel-valorant-api/license" alt="License"></a>
+<a href="https://packagist.org/packages/seaonye/laravel-valorant-api"><img src="https://poser.pugx.org/seaonye/laravel-valorant-api/downloads" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/seaonye/laravel-valorant-api"><img src="https://poser.pugx.org/seaonye/laravel-valorant-api/license" alt="License"></a>
 </p>
 
 ## Installing
