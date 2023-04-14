@@ -1,6 +1,6 @@
 <?php
 
-namespace Seaony\PhpValorantAPI;
+namespace Seaony\ValorantApi;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\Arr;

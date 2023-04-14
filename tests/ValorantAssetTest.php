@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use Seaony\PhpValorantAPI\ValorantAsset;
+use Seaony\ValorantApi\ValorantAsset;
 
 class ValorantAssetTest extends TestCase
 {

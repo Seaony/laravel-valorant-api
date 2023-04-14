@@ -31,5 +31,12 @@ return [
 
     'ssl' => CURL_SSLVERSION_TLSv1_3,
 
+    'platform' => [
+        'platformType'      => 'PC',
+        'platformOS'        => 'Windows',
+        'platformOSVersion' => '10.0.19042.1.256.64bit',
+        'platformChipset'   => 'Unknown',
+    ],
+
     'asset_uri' => 'https://valorant-api.com/v1/',
 ];

@@ -1,42 +1,53 @@
-# PHP Package Template
+<h1 align="center">Laravel Valorant Api</h1>
 
-A template repository for PHP package.
+<p align="center">🍯 A Valorant api wrapper for Laravel.</p>
 
-[![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me-button-s.svg?raw=true)](https://github.com/sponsors/overtrue)
-
+<p align="center">
+<a href="https://packagist.org/packages/seaony/laravel-valorant-api"><img src="https://poser.pugx.org/seaony/laravel-valorant-api/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/seaony/laravel-valorant-api"><img src="https://poser.pugx.org/seaony/laravel-valorant-api/v/unstable.svg" alt="Latest Unstable Version"></a>
+<a href="https://scrutinizer-ci.com/g/seaony/laravel-valorant-api/build-status/master"><img src="https://scrutinizer-ci.com/g/seaony/laravel-valorant-api/badges/build.png?b=master" alt="Build Status"></a>
+<a href="https://scrutinizer-ci.com/g/seaony/laravel-valorant-api/?branch=master"><img src="https://scrutinizer-ci.com/g/seaony/laravel-valorant-api/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
+<a href="https://packagist.org/packages/seaony/laravel-valorant-api"><img src="https://poser.pugx.org/seaony/laravel-valorant-api/downloads" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/seaony/laravel-valorant-api"><img src="https://poser.pugx.org/seaony/laravel-valorant-api/license" alt="License"></a>
+</p>
 
 ## Installing
 
 ```shell
-$ composer require vendor/package -vvv
+$ composer require seaonye/laravel-valorant-api
+```
+
+## Configuration
+
+```shell
+php artisan vendor:publish --provider="Seaony\ValorantApi\ValorantServiceProvider"
 ```
 
 ## Usage
 
-TODO
+```php
+use Seaony\ValorantApi\Valorant;
 
-## :heart: Sponsor me 
+$client = new Valorant();
 
-[![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me.svg?raw=true)](https://github.com/sponsors/overtrue)
+$client->authCookies();
+```
 
-如果你喜欢我的项目并想支持它，[点击这里 :heart:](https://github.com/sponsors/overtrue)
+API Document：[https://valapidocs.techchrism.me/](https://valapidocs.techchrism.me/)
 
-## Project supported by JetBrains
+## 🧶 Project supported by JetBrains
 
 Many thanks to Jetbrains for kindly providing a license for me to work on this and other open-source projects.
 
 [![](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://www.jetbrains.com/?from=https://github.com/overtrue)
 
 
-## Contributing
+## 🍯 Acknowledgements
+**Thank you to the following people and repositories:**
 
-You can contribute in one of three ways:
-
-1. File bug reports using the [issue tracker](https://github.com/vendor/package/issues).
-2. Answer questions or fix bugs on the [issue tracker](https://github.com/vendor/package/issues).
-3. Contribute new features or update the wiki.
-
-_The code contribution process is not very formal. You just need to make sure that you follow the PSR-0, PSR-1, and PSR-2 coding guidelines. Any new code contributions must be accompanied by unit tests where applicable._
+- **[RumbleMike/ValorantClientAPI](https://github.com/RumbleMike/ValorantClientAPI) for the API that makes it all possible.**
+- **[techchrism/valorant-api-docs](https://github.com/techchrism/valorant-api-docs) for the detailed documentation.**
+- **[Valorant-API.com](https://valorant-api.com) for providing assets.**
 
 ## License
 

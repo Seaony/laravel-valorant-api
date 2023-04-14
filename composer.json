@@ -1,5 +1,5 @@
 {
-    "name": "seaony/php-valorant-api",
+    "name": "seaonye/laravel-valorant-api",
     "description": "a valorant api wrapper for php",
     "license": "MIT",
     "authors": [
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Seaony\\PhpValorantAPI\\": "src"
+            "Seaony\\ValorantApi\\": "src"
         }
     },
     "autoload-dev": {
@@ -28,7 +28,13 @@
             "Tests\\": "tests"
         }
     },
-    "extra": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Seaony\\ValorantApi\\ValorantServiceProvider"
+            ]
+        }
+    },
     "scripts": {
         "test": "phpunit --colors"
     },
